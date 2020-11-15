@@ -37,7 +37,7 @@ const Portfolio = () => {
                 <img src="https://instadriver.co/img/drivers.svg" alt="none" />
                 <br />
                 <br />
-                <h2 className="section-heading text-center">Drivers!</h2>
+                <h2 className="section-heading text-center" style={{ color: '#ffffff' }}>Drivers!</h2>
                 <img
                   src="https://instadriver.co/img/ocean-waves-white.png"
                   alt="none"
