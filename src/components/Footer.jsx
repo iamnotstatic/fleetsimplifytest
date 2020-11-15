@@ -13,21 +13,21 @@ const Footer = () => {
               <h4 className="service-heading text-left">Useful links</h4>
               <a
                 className="links keychainify-checked"
-                href="https://instadriver.co/about_us"
+                href="#!"
               >
                 About InstaDriver
                 <br />
               </a>
               <a
                 className="links keychainify-checked"
-                href="https://instadriver.co/verified_search"
+                href="#!"
               >
                 Verified Search (For Employers &amp; Drivers)
                 <br />
               </a>
               <a
                 className="links keychainify-checked"
-                href="https://instadriver.co/top_ad_features"
+                href="#!"
               >
                 Top Ad Feature (For Drivers)
               </a>
@@ -37,26 +37,26 @@ const Footer = () => {
               {/*               <a class="links" href="#">Post Profile (For Drivers)<br></a>*/}
               <a
                 className="links keychainify-checked"
-                href="https://instadriver.co/login"
+                href="#!"
               >
                 Driver Sign In
                 <br />
               </a>
               <a
                 className="links keychainify-checked"
-                href="https://instadriver.co/register"
+                href="#!"
               >
                 Driver Sign Up
               </a>
               <a
                 className="links keychainify-checked"
-                href="https://instadriver.co/employer-login"
+                href="#!"
               >
                 Employer Sign in
               </a>
               <a
                 className="links keychainify-checked"
-                href="https://instadriver.co/register/employer"
+                href="#!"
               >
                 Employer Sign up
               </a>
@@ -65,14 +65,14 @@ const Footer = () => {
               <h4 className="service-heading text-left">Useful links</h4>
               <a
                 className="links keychainify-checked"
-                href="https://instadriver.co/faq"
+                href="#!"
               >
                 FAQs
                 <br />
               </a>
               <a
                 className="links keychainify-checked"
-                href="https://instadriver.co/contact_us"
+                href="#!"
               >
                 Contact Us
                 <br />

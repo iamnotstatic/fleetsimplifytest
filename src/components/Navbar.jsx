@@ -4,11 +4,11 @@ const Navbar = () => {
   return (
     <div className="init-nav">
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container">
+        <div className="container">
           <a className="navbar-brand" href="!#">
             <img
               src="https://instadriver.co/img/logo.svg"
-              class="d-inline-block align-top"
+              className="d-inline-block align-top"
               alt=""
               loading="lazy"
             />
@@ -27,23 +27,23 @@ const Navbar = () => {
           <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul className="navbar-nav ml-auto">
               <li className="nav-item">
-                <a className="nav-link custom" href="!#">
+                <a className="nav-link custom" href="#!">
                   Jobs
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link custom" href="!#">
+                <a className="nav-link custom" href="#!">
                   Get Social
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link custom" href="!#">
+                <a className="nav-link custom" href="#!">
                   Sign In
                 </a>
               </li>
-              <li class="nav-item dropdown">
+              <li className="nav-item dropdown">
                 <a
-                  class="nav-link dropdown-toggle"
+                  className="nav-link dropdown-toggle"
                   href="!#"
                   id="navbarDropdownMenuLink"
                   role="button"
@@ -54,30 +54,30 @@ const Navbar = () => {
                   Menu
                   <img
                     src="https://instadriver.co/img/menu.svg"
-                    class="ml-2"
+                    className="ml-2"
                     alt="none"
                   />
                 </a>
                 <div
-                  class="dropdown-menu"
+                  className="dropdown-menu"
                   aria-labelledby="navbarDropdownMenuLink"
                 >
-                  <a class="dropdown-item" href="!#">
+                  <a className="dropdown-item" href="#!">
                     Home
                   </a>
-                  <a class="dropdown-item" href="!#">
+                  <a className="dropdown-item" href="#!">
                     About InstaDriver
                   </a>
-                  <a class="dropdown-item" href="!#">
+                  <a className="dropdown-item" href="#!">
                     Verified Search (For Employers & Drivers)
                   </a>
-                  <a class="dropdown-item" href="!#">
+                  <a className="dropdown-item" href="#!">
                     Top Ad Feature (For Drivers)
                   </a>
-                  <a class="dropdown-item" href="!#">
+                  <a className="dropdown-item" href="#!">
                     FAQs
                   </a>
-                  <a class="dropdown-item" href="!#">
+                  <a className="dropdown-item" href="#!">
                     Contact Us
                   </a>
                 </div>
@@ -86,15 +86,15 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
-      <div class="blkstrip">
-        <div class="container">
-          <span class="float-right">
+      <div className="blkstrip">
+        <div className="container">
+          <span className="float-right">
             <img src="https://instadriver.co/img/message.svg" alt="none" />{' '}
             saysomething@instadriver.co
           </span>
         </div>
       </div>
-      <div class="landing-intro">
+      <div className="landing-intro">
         <div className="container">
           <div className="col-lg-5 intro-text">
             <div className="blackbox">
@@ -108,27 +108,27 @@ const Navbar = () => {
                     <option>Select Category</option>
                   </select>
                 </div>
-                <div class="input-group mb-3">
+                <div className="input-group mb-3">
                   <input
                     type="text"
-                    class="form-control"
+                    className="form-control"
                     placeholder="Enter a location"
                     aria-label="Enter a location"
                     aria-describedby="basic-addon2"
                   />
-                  <div class="input-group-append">
-                    <span class="input-group-text" id="basic-addon2">
+                  <div className="input-group-append">
+                    <span className="input-group-text" id="basic-addon2">
                       <svg
-                        class="feather feather-map-pin sc-dnqmqq jxshSx"
+                        className="feather feather-map-pin sc-dnqmqq jxshSx"
                         xmlns="http://www.w3.org/2000/svg"
                         width="24"
                         height="24"
                         viewBox="0 0 24 24"
                         fill="none"
                         stroke="currentColor"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                         aria-hidden="true"
                       >
                         <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
@@ -341,7 +341,7 @@ const Navbar = () => {
                           <option value="NZD">New Zealand Dollar</option>
                           <option value="NIO">Nicaraguan Córdoba</option>
                           <option value="XOF">West African CFA Fra</option>
-                          <option value="NGN" selected="true">
+                          <option value="NGN" selected={true}>
                             Nigerian Naira
                           </option>
                           <option value="NZD">New Zealand Dollar</option>
@@ -447,7 +447,7 @@ const Navbar = () => {
                       <div className>
                         <div className="select selectbox">
                           <select id="gdr" name="gdr" className="form-control">
-                            <option value>Select</option>
+                            <option>Select</option>
                             <option value="Male">Male</option>
                             <option value="Female">Female</option>
                           </select>
@@ -497,7 +497,6 @@ const Navbar = () => {
                           placeholder="At least"
                           id="dexp"
                           name="dexp"
-                          defaultValue
                           maxLength={15}
                         />
                         <div className="input-group-append">
@@ -524,7 +523,7 @@ const Navbar = () => {
                   <button
                     type="button"
                     className="btn btn-primary btn-form display-4 pr-3 pl-3"
-                    onclick="search_driver_home();"
+                   
                   >
                     Apply
                   </button>

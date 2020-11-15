@@ -16,7 +16,6 @@ const About = () => {
                 <img src="https://instadriver.co/img/aboutus.svg" alt="none" />
                 <h4
                   className="service-heading"
-                  onclick="location.href='https://instadriver.co/about_us"
                 >
                   About us
                 </h4>
